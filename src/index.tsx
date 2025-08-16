@@ -14,12 +14,12 @@ app.use('/static/*', serveStatic({ root: './public' }))
 app.get('/', (c) => {
   return c.html(`
     <!DOCTYPE html>
-    <html lang="vi">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Infinite Scroll of Profound Nothingness</title>
-        <meta name="description" content="Một hành trình khám phá vô nghĩa nhưng đầy ý nghĩa trong vũ trụ vô tận của sự hài hước">
+        <meta name="description" content="A journey of meaningless exploration that's somehow meaningful in the infinite universe of humor">
         
         <!-- Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -32,7 +32,7 @@ app.get('/', (c) => {
         
         <!-- Meta tags for mysterious feel -->
         <meta property="og:title" content="The Infinite Scroll of Profound Nothingness">
-        <meta property="og:description" content="Khám phá những triết lý sâu sắc... hoặc không">
+        <meta property="og:description" content="Explore deep philosophies... or maybe not">
         <meta property="og:type" content="website">
     </head>
     <body>
@@ -48,11 +48,11 @@ app.get('/', (c) => {
         <header class="header">
             <h1>The Infinite Scroll of Profound Nothingness</h1>
             <p class="subtitle">
-                Một cuộc hành trình khám phá những triết lý sâu sắc về cuộc sống, 
-                vũ trụ và mọi thứ... hoặc có thể chỉ là những điều ngẫu nhiên vô nghĩa.
+                A journey through the deep philosophies of life, 
+                the universe, and everything... or perhaps just random meaningless things.
             </p>
             <div class="mysterious-hint">
-                ↓ Cuộn xuống để khám phá sự khôn ngoan vô tận ↓
+                ↓ Scroll down to discover infinite wisdom ↓
             </div>
         </header>
 
@@ -66,11 +66,11 @@ app.get('/', (c) => {
         <!-- Footer Hint -->
         <footer class="footer-hint">
             <p>
-                "Trong cuộc sống, có những câu hỏi không có câu trả lời...<br>
-                và có những câu trả lời không ai hỏi."
+                "In life, there are questions without answers...<br>
+                and answers that nobody asked for."
             </p>
             <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.5;">
-                💡 Tip: Nhấn ESC để... à không, không có gì xảy ra đâu.
+                💡 Tip: Press ESC for... well, nothing really happens.
             </p>
         </footer>
 
@@ -86,9 +86,9 @@ app.get('/', (c) => {
             });
             
             // Add some mysterious console messages
-            console.log("🌀 Chào mừng đến với The Infinite Scroll of Profound Nothingness");
-            console.log("💭 Bạn đang tìm kiếm gì trong console?");
-            console.log("🤔 Có lẽ câu trả lời nằm ở việc... cuộn xuống?");
+            console.log("🌀 Welcome to The Infinite Scroll of Profound Nothingness");
+            console.log("💭 What are you looking for in the console?");
+            console.log("🤔 Perhaps the answer lies in... scrolling down?");
         </script>
         <script src="/static/app.js"></script>
     </body>
@@ -108,14 +108,18 @@ app.get('/api/health', (c) => {
 // API endpoint for random wisdom (backup if external APIs fail)
 app.get('/api/wisdom', (c) => {
   const wisdomQuotes = [
-    "Cuộc sống như một API - đôi khi nó hoạt động, đôi khi trả về 404",
-    "Debug code như tìm kiếm ý nghĩa cuộc sống - khó khăn nhưng đáng giá",
-    "Trong vũ trụ vô tận, bugs vẫn là vô hạn hơn",
-    "Một developer khôn ngoan nói: 'It works on my machine' ",
-    "Tính năng hay bug? Đó là câu hỏi triết học của kỷ nguyên số",
+    "Life is like an API - sometimes it works, sometimes it returns 404",
+    "Debugging code is like seeking the meaning of life - difficult but worthwhile",
+    "In the infinite universe, bugs are still more infinite",
+    "A wise developer once said: 'It works on my machine'",
+    "Feature or bug? That's the philosophical question of the digital age",
     "Coffee + Code = Infinite Possibilities",
-    "Tại sao developers thích dark mode? Vì ánh sáng làm lộ bugs!",
-    "Git commit như những lời hứa - đầy hy vọng nhưng thường bị revert"
+    "Why do developers love dark mode? Because light reveals all the bugs!",
+    "Git commits are like promises - full of hope but often get reverted",
+    "There are only 10 types of people: those who understand binary and those who don't",
+    "A programmer's wife asks: 'Would you go to the store and pick up a loaf of bread? And if they have eggs, get a dozen.' The programmer returns with 12 loaves of bread.",
+    "Why do programmers prefer dark mode? Light attracts bugs!",
+    "Programming is 10% science, 20% ingenuity, and 70% getting the ingenuity to work with the science"
   ];
   
   const randomWisdom = wisdomQuotes[Math.floor(Math.random() * wisdomQuotes.length)];

@@ -8,31 +8,41 @@ class InfiniteWisdom {
         
         // Predefined "profound" content that gets progressively more ridiculous
         this.profoundTexts = [
-            "Trong vũ trụ bao la, chúng ta chỉ là những hạt bụi nhỏ bé...",
-            "Ý nghĩa của cuộc sống không phải để tìm kiếm, mà để tạo ra...",
-            "Khi bạn nhìn vào vực thẳm, vực thẳm cũng nhìn lại bạn... và nó đang cười khúc khích",
-            "Triết lý cổ xưa dạy: 'Biết mình là không biết gì'... nhưng tôi thậm chí còn không biết điều đó",
-            "Thời gian là một ảo tưởng... đặc biệt là khi bạn đang chờ pizza được giao",
-            "Sự im lặng là vàng... nhưng tiếng cười là kim cương",
-            "Đường đời như một cuộc hành trình... và tôi đã quên mang theo bản đồ",
-            "Hạnh phúc là khi thực tế đúng với kỳ vọng... hoặc khi bạn hạ thấp kỳ vọng xuống đủ thấp",
-            "Người khôn ngoan nói ít... nhưng người ngu ngẩy thì tweet nhiều",
-            "Cuộc sống như một hộp socola... bạn không bao giờ biết viên nào bị kiến cắn",
-            "Tình yêu là mù... nhưng hôn nhân làm bạn lấy lại thị lực",
-            "Thành công là 1% cảm hứng, 99% mồ hôi... và 50% toán học tồi",
-            "Hãy sống như ngày hôm nay là ngày cuối... nhưng đừng quên trả hóa đơn điện",
-            "Tri thức là sức mạnh... nhưng wifi mạnh hơn",
-            "Những điều tốt nhất trong cuộc sống là miễn phí... trừ pizza",
-            "Thời gian trôi nhanh khi bạn đang vui... và chậm như rùa khi bạn đang họp",
-            "Con người sinh ra bình đẳng... cho đến khi ai đó phát minh ra wifi VIP",
-            "Đừng khóc vì sữa đã đổ... trừ khi đó là sữa organic đắt tiền",
-            "Một hành trình ngàn dặm bắt đầu từ một bước... hoặc một cú click Grab",
-            "Sự kiên nhẫn là một đức tính... nhưng tôi muốn nó ngay bây giờ!",
-            "Tiền không mua được hạnh phúc... nhưng nó mua được pizza, cũng tương tự thôi",
-            "Lịch sử lặp lại chính nó... như những lời bài hát K-pop",
-            "Sự thật sẽ giải phóng bạn... nhưng trước tiên nó sẽ làm bạn tức giận",
-            "Không có gì là không thể... trừ việc tôi hiểu JavaScript closures",
-            "Hãy là chính mình... trừ khi bạn có thể là Batman, thì hãy là Batman"
+            "In the vast cosmos, we are but tiny specks of dust...",
+            "The meaning of life is not to be found, but to be created...",
+            "When you stare into the abyss, the abyss stares back... and it's giggling",
+            "Ancient philosophy teaches: 'To know that you know nothing'... but I don't even know that",
+            "Time is an illusion... especially when you're waiting for pizza delivery",
+            "Silence is golden... but laughter is diamond",
+            "Life's journey is like a road trip... and I forgot to bring the map",
+            "Happiness is when reality meets expectations... or when you lower expectations enough",
+            "Wise people speak little... but foolish people tweet a lot",
+            "Life is like a box of chocolates... you never know which one has ants in it",
+            "Love is blind... but marriage gives you back your sight",
+            "Success is 1% inspiration, 99% perspiration... and 50% bad math",
+            "Live each day like it's your last... but don't forget to pay the electricity bill",
+            "Knowledge is power... but WiFi is stronger",
+            "The best things in life are free... except pizza",
+            "Time flies when you're having fun... and crawls like a turtle during meetings",
+            "All humans are born equal... until someone invented premium WiFi",
+            "Don't cry over spilled milk... unless it's organic and expensive",
+            "A journey of a thousand miles begins with a single step... or a Uber ride",
+            "Patience is a virtue... but I want it right now!",
+            "Money can't buy happiness... but it can buy pizza, which is pretty close",
+            "History repeats itself... like K-pop song lyrics",
+            "The truth will set you free... but first it will make you angry",
+            "Nothing is impossible... except me understanding JavaScript closures",
+            "Be yourself... unless you can be Batman, then be Batman",
+            "They say laughter is the best medicine... but have you tried chocolate?",
+            "Home is where the heart is... and where the WiFi connects automatically",
+            "Early bird gets the worm... but the second mouse gets the cheese",
+            "Practice makes perfect... but nobody's perfect, so why practice?",
+            "If at first you don't succeed... try doing it the way your wife told you",
+            "The pen is mightier than the sword... but the keyboard is mightier than both",
+            "Actions speak louder than words... unless you're in a library",
+            "Fortune favors the bold... and also people who read the fine print",
+            "You can't teach an old dog new tricks... but you can teach it to use Spotify",
+            "Better late than never... unless you're a programmer fixing production bugs"
         ];
 
         this.init();
@@ -40,18 +50,18 @@ class InfiniteWisdom {
 
     init() {
         // Add initial content
-        this.addContent("Chào mừng đến với hành trình khám phá vô nghĩa...", "text");
+        this.addContent("Welcome to the journey of meaningless exploration...", "text");
         
         // Setup scroll listener
         window.addEventListener('scroll', () => this.handleScroll());
         
         // Add some initial mystery content
         setTimeout(() => {
-            this.addContent("Bạn đang tìm kiếm ý nghĩa?", "text");
+            this.addContent("Are you seeking meaning?", "text");
         }, 2000);
         
         setTimeout(() => {
-            this.addContent("Hoặc chỉ đang trì hoãn công việc?", "text");
+            this.addContent("Or just procrastinating?", "text");
         }, 4000);
     }
 
@@ -93,7 +103,7 @@ class InfiniteWisdom {
             }
         } catch (error) {
             console.error('Error loading content:', error);
-            this.addContent("Lỗi trong matrix... hoặc chỉ là API đang nghỉ coffee ☕", "text");
+            this.addContent("Error in the matrix... or maybe the API is just having coffee ☕", "text");
         }
         
         this.removeLoadingIndicator();
@@ -110,16 +120,11 @@ class InfiniteWisdom {
             const response = await fetch('https://v2.jokeapi.dev/joke/Any?type=single&safe-mode');
             const data = await response.json();
             
-            let jokeText = data.joke || "Tại sao lập trình viên không thích thiên nhiên? Vì nó có quá nhiều bugs! 🐛";
-            
-            // Add Vietnamese translation for English jokes
-            if (data.joke && !this.isVietnamese(data.joke)) {
-                jokeText = `🎭 ${data.joke}\n\n(Đùa thế thôi, đừng Google Translate nhé!)`;
-            }
+            let jokeText = data.joke || "Why don't programmers like nature? It has too many bugs! 🐛";
             
             this.addContent(jokeText, "joke");
         } catch (error) {
-            this.addContent("Joke API đang buồn và không muốn kể chuyện cười 😢", "text");
+            this.addContent("The Joke API is feeling sad and doesn't want to tell jokes 😢", "text");
         }
     }
 
@@ -131,16 +136,11 @@ class InfiniteWisdom {
             if (data.url) {
                 this.addContent(data.url, "meme", data.title);
             } else {
-                this.addContent("Meme bị mất trong không gian ảo... như tất cả hy vọng của chúng ta", "text");
+                this.addContent("The meme got lost in cyberspace... like all our hopes and dreams", "text");
             }
         } catch (error) {
-            this.addContent("Meme API đang có existential crisis 🤔", "text");
+            this.addContent("The Meme API is having an existential crisis 🤔", "text");
         }
-    }
-
-    isVietnamese(text) {
-        const vietnameseChars = /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i;
-        return vietnameseChars.test(text);
     }
 
     addContent(content, type, title = '') {
@@ -173,7 +173,7 @@ class InfiniteWisdom {
                         <div class="text-sm text-gray-500 mb-4">VISUAL ENLIGHTENMENT</div>
                         ${title ? `<h3 class="text-lg font-medium mb-4 text-gray-700">${title}</h3>` : ''}
                         <img src="${content}" alt="Meme" class="max-w-full h-auto rounded-lg shadow-lg mx-auto" loading="lazy"
-                             onerror="this.parentElement.innerHTML='<p class=\\'text-gray-500\\'>Hình ảnh đã biến mất vào hư vô... như tất cả mọi thứ khác 👻</p>'">
+                             onerror="this.parentElement.innerHTML='<p class=\\'text-gray-500\\'>The image vanished into the void... like everything else 👻</p>'">
                     </div>
                 `;
                 break;
@@ -201,7 +201,7 @@ class InfiniteWisdom {
         loader.innerHTML = `
             <div class="inline-flex items-center space-x-2">
                 <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-orange-500"></div>
-                <span class="text-gray-500">Đang tải sự khôn ngoan...</span>
+                <span class="text-gray-500">Loading wisdom...</span>
             </div>
         `;
         this.contentContainer.appendChild(loader);
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add some interactive elements
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
-            alert('Không có lối thoát khỏi cuộc sống... nhưng có thể refresh trang này 🔄');
+            alert('There is no escape from life... but you can refresh this page 🔄');
         }
     });
     
@@ -231,11 +231,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', () => {
         clickCount++;
         if (clickCount === 10) {
-            alert('Bạn đã click 10 lần! Đó là... một thành tích đáng ghi nhận? 🎉');
+            alert('You clicked 10 times! That is... a noteworthy achievement? 🎉');
         } else if (clickCount === 50) {
-            alert('50 clicks! Bạn thực sự cần một hobby mới 😅');
+            alert('50 clicks! You really need a new hobby 😅');
         } else if (clickCount === 100) {
-            alert('100 clicks!!! OK, tôi thán phục sự kiên trì của bạn 👏');
+            alert('100 clicks!!! OK, I admire your persistence 👏');
         }
     });
 });
