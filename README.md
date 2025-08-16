@@ -1,16 +1,17 @@
 # 🌀 The Infinite Scroll of Profound Nothingness
 
 ## 🎯 Project Overview
-**"Infinite Nothing Scroll"** là một website cực kỳ đơn giản nhưng gây nghiện - tạo cảm giác bí ẩn và triết học sâu sắc ở lần đầu, nhưng khi trải nghiệm sẽ nhận ra sự hài hước tuyệt vời của nó.
+**"The Infinite Scroll of Profound Nothingness"** is an extremely simple yet addictive website - it creates a mysterious and deeply philosophical feeling at first glance, but when experienced, users will discover its brilliant humor.
 
-### ✨ Features Đã Hoàn Thành
-- ✅ **Infinite Scroll**: Cuộn vô tận với nội dung được tải động
-- ✅ **Giao diện bí ẩn**: Typography và design tạo cảm giác triết học
-- ✅ **Nội dung hài hước**: Từ triết lý sâu sắc dần chuyển thành những câu hài hước
-- ✅ **Tích hợp API**: Joke API và Meme API cho nội dung ngẫu nhiên
-- ✅ **Responsive Design**: Hoạt động tốt trên mọi thiết bị
+### ✨ Completed Features
+- ✅ **Infinite Scroll**: Endless scrolling with dynamically loaded content
+- ✅ **Mysterious Interface**: Typography and design creating philosophical atmosphere  
+- ✅ **Humorous Content**: Gradually transitions from profound philosophy to amusing jokes
+- ✅ **API Integration**: Joke API and Meme API for random content
+- ✅ **Responsive Design**: Works perfectly on all devices
 - ✅ **Animated Effects**: Fade-in, floating elements, scroll progress
 - ✅ **Easter Eggs**: Console messages, click counter, ESC key interaction
+- ✅ **English Language**: All content translated to English
 
 ### 🔗 URLs
 - **Development**: https://3000-i1sl8beeawrhczvxi48px-6532622b.e2b.dev
@@ -50,23 +51,23 @@
 
 ## 👥 User Guide
 
-### 🌟 Trải Nghiệm Website
-1. **Khởi đầu bí ẩn**: Website bắt đầu như một trang triết học nghiêm túc
-2. **Cuộn để khám phá**: Người dùng cuộn xuống để tìm hiểu thêm
-3. **Chuyển đổi dần**: Nội dung từ từ chuyển từ triết lý sang hài hước
-4. **Infinite Entertainment**: Càng cuộn càng gặp nội dung ngẫu nhiên vui nhộn
+### 🌟 Website Experience
+1. **Mysterious Beginning**: Website starts as a serious philosophical page
+2. **Scroll to Explore**: Users scroll down to discover more
+3. **Gradual Transformation**: Content gradually shifts from philosophy to humor
+4. **Infinite Entertainment**: The more you scroll, the more random fun content you encounter
 
 ### 🎮 Easter Eggs & Interactions
-- **Console Messages**: Check browser console để thấy tin nhắn bí ẩn
-- **Click Counter**: Click 10, 50, 100 lần để unlock achievements
-- **ESC Key**: Nhấn ESC để nhận một surprise message
-- **Scroll Progress**: Thanh progress màu cam ở top của trang
+- **Console Messages**: Check browser console to see mysterious messages
+- **Click Counter**: Click 10, 50, 100 times to unlock achievements
+- **ESC Key**: Press ESC to receive a surprise message
+- **Scroll Progress**: Orange progress bar at the top of the page
 
 ### 🛠️ Technical Features
-- **Lazy Loading**: Images load khi cần thiết
-- **Error Handling**: Graceful fallback khi API fails
-- **Performance**: Optimized infinite scroll với debouncing
-- **Accessibility**: Proper semantic HTML và keyboard navigation
+- **Lazy Loading**: Images load when needed
+- **Error Handling**: Graceful fallback when APIs fail
+- **Performance**: Optimized infinite scroll with debouncing
+- **Accessibility**: Proper semantic HTML and keyboard navigation
 
 ## 🚀 Deployment Status
 
@@ -77,11 +78,11 @@
 - **PM2 Process**: ✅ Running as daemon process
 
 ### 🔄 Next Steps
-1. **GitHub Setup**: Setup repository và push code
+1. **GitHub Setup**: Setup repository and push code
 2. **Cloudflare Pages**: Deploy to production
 3. **Custom Domain**: Optional - setup custom domain
 4. **Analytics**: Optional - add visitor tracking
-5. **More APIs**: Thêm nhiều nguồn content hài hước
+5. **More APIs**: Add more sources of humorous content
 
 ## ⚡ Tech Stack
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
@@ -94,11 +95,11 @@
 - **Process Manager**: PM2 (development)
 
 ## 🎨 Design Philosophy
-- **Minimalist but Mysterious**: Clean design với mysterious elements
-- **Typography-focused**: Beautiful fonts để tạo cảm giác nghiêm túc
-- **Color Scheme**: Mainly white/gray với orange accents
-- **Progressive Revelation**: Nội dung dần reveal tính hài hước
-- **Subtle Animations**: Smooth transitions và floating effects
+- **Minimalist but Mysterious**: Clean design with mysterious elements
+- **Typography-focused**: Beautiful fonts to create serious atmosphere
+- **Color Scheme**: Mainly white/gray with orange accents
+- **Progressive Revelation**: Content gradually reveals its humorous nature
+- **Subtle Animations**: Smooth transitions and floating effects
 
 ## 📈 Performance
 - **Lightweight**: Minimal JavaScript bundle
@@ -108,16 +109,16 @@
 - **Edge Deployment**: Cloudflare Workers global network
 
 ## 🎯 Target Audience
-- **Developers**: Những người hiểu humor về coding
-- **Philosophy Enthusiasts**: Thích đọc quotes triết lý (nhưng sẽ ngạc nhiên)
-- **Procrastinators**: Người tìm cách trì hoãn công việc một cách "có ý nghĩa"
-- **Meme Lovers**: Yêu thích random internet humor
-- **Anyone seeking Enlightenment**: Hoặc chỉ muốn giải trí 😄
+- **Developers**: Those who understand coding humor
+- **Philosophy Enthusiasts**: Love reading philosophical quotes (but will be surprised)
+- **Procrastinators**: People looking for "meaningful" ways to avoid work
+- **Meme Lovers**: Fans of random internet humor
+- **Anyone seeking Enlightenment**: Or just wanting entertainment 😄
 
 ---
 
 **Last Updated**: August 16, 2025  
-**Project Status**: ✅ Development Complete, Ready for Production Deploy  
+**Project Status**: ✅ Development Complete, English Translation Done, Ready for Production Deploy  
 **Creator**: Bernie - Blockchain Engineer with a sense of humor  
 
-> *"Trong cuộc sống, có những website không có mục đích... và đó chính là mục đích của chúng."* 🌀
+> *"In life, there are websites that serve no purpose... and that is precisely their purpose."* 🌀
