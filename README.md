@@ -166,7 +166,7 @@ This project is open source and available under the MIT License.
 
 **Last Updated**: August 16, 2025  
 **Project Status**: ✅ **LIVE IN PRODUCTION** - Deployed to Cloudflare Pages & GitHub  
-**Creator**: Bernie - Blockchain Engineer with a sense of humor  
+**Creator**: Bernie Ng - Young Web3/Web2 Developer with a sense of humor like Linh Remind
 
 > *"In life, there are websites that serve no purpose... and that is precisely their purpose."* 🌀
 
